@@ -1,0 +1,22 @@
+#drum-machine {
+    width: 400px;
+    margin: auto;
+    background-color: rgb(186, 134, 238);
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.drum-pad{
+    text-align: center;
+    padding: 20px;
+}
+
+#display {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: coral;
+}
